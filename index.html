@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="COMPUTER ZONE STORE - Your trusted computer hardware store in Sri Lanka.">
+    <title>COMPUTER ZONE STORE | Gaming & Computer Hardware</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="container navbar">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png" alt="Computer Zone Store Logo">
+                <span>COMPUTER ZONE <strong>STORE</strong></span>
+            </a>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#categories">Categories</a>
+                <a href="#products">Products</a>
+                <a href="#offers">Special Offers</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="login.html">Account</a>
+                <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <p class="hero-tag">WELCOME TO COMPUTER ZONE STORE</p>
+                <h1>POWER YOUR <span>GAMING</span></h1>
+                <h2>Upgrade Your Performance.</h2>
+                <p>Discover quality computer hardware, gaming accessories and the latest technology at great prices.</p>
+                <a href="#products" class="btn-primary">SHOP NOW</a>
+            </div>
+        </section>
+
+        <section id="categories" class="section container">
+            <h2>SHOP BY <span>CATEGORY</span></h2>
+            <div id="category-list" class="category-grid">
+                <p>Loading categories...</p>
+            </div>
+        </section>
+
+        <section id="products" class="section container">
+            <h2>FEATURED <span>PRODUCTS</span></h2>
+            <div id="featured-products" class="product-grid">
+                <p>Loading products...</p>
+            </div>
+        </section>
+
+        <section id="offers" class="offer-banner">
+            <div class="container">
+                <h2>UPGRADE YOUR BATTLE STATION</h2>
+                <p>Find the hardware you need to take your setup to the next level.</p>
+                <a href="#products" class="btn-primary">EXPLORE PRODUCTS</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <h2>COMPUTER ZONE STORE</h2>
+            <p>Your trusted destination for computer hardware in Sri Lanka.</p>
+            <p>Islandwide Delivery | Customer Pickup</p>
+            <p class="copyright">© 2026 COMPUTER ZONE STORE. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/supabase.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
